@@ -24,8 +24,8 @@ def scrape_dvoa_data(driver):
 				if cell.find('b') != None:
 					break
 				if not (((year in NO_LAST_YEARS[0])and (i in NO_LAST_YEARS[1])) or
-						((year in MID_YEARS[0])and (i in MID_YEARS[1])) or
-						((year in WEIGHTED_YEARS[0]) and (i in WEIGHTED_YEARS[1]))):
+                ((year in MID_YEARS[0])and (i in MID_YEARS[1])) or
+                ((year in WEIGHTED_YEARS[0]) and (i in WEIGHTED_YEARS[1]))):
 					columns[j].append(cell.text)
 					j += 1
 				i += 1
