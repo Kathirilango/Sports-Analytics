@@ -10,7 +10,7 @@ This project scrapes DVOA data from the 1985 NFL season to the most recent seaso
 ```
 python3 dvoa_regression.py <total_dvoa> <offensive_dvoa> <defensive_dvoa> <special_teams_dvoa>
 ```
-- Correlation file plots correlation matrix of all dvoa data.
+- Correlation file plots correlation matrix of all DVOA data.
 
 ### Sources
 All statistics courtesy of Football Outsiders.

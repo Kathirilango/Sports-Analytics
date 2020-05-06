@@ -22,8 +22,7 @@ def main(argv):
 		exit(0)
 	df = pd.read_csv("dvoa_data.csv")
 	clf = linear_regression(df)
-	test_df = pd.DataFrame({'dvoa': [float(argv[0])], 'o_dvoa': [float(argv[1])],
-							'd_dvoa': [float(argv[2])], 's_dvoa': [float(argv[3])]})
+	test_df = pd.DataFrame({'dvoa': [float(argv[0])], 'o_dvoa': [float(argv[1])], 'd_dvoa': [float(argv[2])], 's_dvoa': [float(argv[3])]})
 	pred = clf.predict(test_df)
 	print("Team will win " + str(int(round(pred.tolist()[0],0))) + " games.")
 

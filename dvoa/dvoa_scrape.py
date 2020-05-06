@@ -5,7 +5,7 @@ import sys, getopt
 
 #Football Outsiders irrelevant column indices based on year
 NO_LAST_YEARS 	= ([1985, 1987, 1988, 1989, 1991], [0,3,6,8,10])
-MID_YEARS 		= ([1986, 1990, 2019]+list(range(1992, 2018)), [0,3,4,7,9,11])
+MID_YEARS 		  = ([1986, 1990, 2019]+list(range(1992, 2018)), [0,3,4,7,9,11])
 WEIGHTED_YEARS 	= ([2018], [0,3,4,5,8,10,12])
 
 #Scrape data from footballoutsiders
@@ -45,6 +45,5 @@ if __name__ == "__main__":
 	driver = webdriver.Chrome("/*****/chromedriver")
 	cols =  scrape_dvoa_data(driver)
 	cols = clean_data(cols)
-	df = pd.DataFrame({'name': cols[0], 'dvoa':cols[1], 'wins': cols[2], 
-					   'o_dvoa': cols[3], 'd_dvoa': cols[4], 's_dvoa': cols[5]})
+	df = pd.DataFrame({'name': cols[0], 'dvoa':cols[1], 'wins': cols[2], 'o_dvoa': cols[3], 'd_dvoa': cols[4], 's_dvoa': cols[5]})
 	df.to_csv('dvoa_data.csv', index=False, encoding='utf-8')
