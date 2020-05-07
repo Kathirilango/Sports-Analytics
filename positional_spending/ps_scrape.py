@@ -56,7 +56,7 @@ def scrape_records(driver, start_year, end_year):
   return records
 
 def main(argv):
-  driver = webdriver.Chrome("/Users/kathirilango/Documents/chromedriver")
+  driver = webdriver.Chrome("/*****/chromedriver")
   opts, _ = getopt.getopt(argv,"n",[])
   use_new_data = False
   for opt, _ in opts:

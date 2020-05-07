@@ -5,7 +5,7 @@ A model that determines a correct way for NFL teams to spend their money or proo
 This project scrapes positional spending data from [Over The Cap](https://overthecap.com/positional-spending/) for every NFL team dating back to 2013 as well as win/loss data from [Pro Football Reference](https://www.pro-football-reference.com/years/2019/) and creates a decision tree classification model that predicts which teams in the current or upcoming NFL season will win at least a certain number of games (specified by the user).
 
 ### Usage
-- Scrape file scrapes salary data from OTC and win/loss data from PFR and stores it into single CSV file. It accepts an option "-n" when run to determine if it should scrape past data or current/upcoming season data. Current season data will be stored in file "new_data.csv" and will (obviously) not contain win/loss results.
+- Scrape file scrapes salary data from OTC and win/loss data from PFR and stores it into single CSV file. It accepts an option "-n" when run to determine if it should scrape past data or current/upcoming season data. Current season data will be stored in file "new_data.csv" and will (obviously) not contain win/loss results. Replace stars in webdriver path with actual path to chromedriver.
 ```
 python3 ps_scrape.py [-n]
 ```
