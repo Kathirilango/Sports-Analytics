@@ -2,7 +2,10 @@
 Source code and data for some of my sports analytics projects. 
 
 ### DVOA
-Machine learning model that predicts the number of games an NFL team will win based on its DVOA. More info in folder.
+Machine learning regression model that predicts the number of games an NFL team will win based on its DVOA. More info in folder.
+
+### Positional Spending
+Machine learning classification model that predicts which NFL teams will win more or less than a specified number of games based on their positional salary distribution. More info in folder.
 
 ### Kyle Shanahan - [Read Article](https://www.bruinsportsanalytics.com/kyleshanahan)
 An analysis of San Francisco 49ers head coach Kyle Shanahan's offense and where he went wrong in Super Bowl LIV.
