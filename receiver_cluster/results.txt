@@ -1,0 +1,42 @@
+Using three principal components and three clusters, the final data can be seen in the 
+clustered_data.csv file. The three tiers of receivers that were created can essentially 
+be described as:
+
+- Cluster 1: Tight ends and YAC monsters (211 players)
+    - do not lead the team in share of air yards, typically create more separation, work 
+      closer to the line of scrimmage, but have more yards after catch per reception than any other 
+      cluster
+    - examples: Randall Cobb (2016-19), Mohamed Sanu (2016-19), Taylor Gabriel (2016-18), 
+      George Kittle (2017 and 19), Deebo Samuel (2019)
+
+- Cluster 2: Unproductive speedsters and old/injured stars (156 players)
+    - more targeted air yards than any other cluster, but lower catch % and less YAC/R, rather 
+      unproductive for various reasons and typically the number 3 or 4 option
+    - mostly one-dimensional and unproductive speedsters
+        - examples: Ted Ginn, Mike Williams, Phillip Dorsett, Curtis Samuel, John Ross, 
+          Calvin Ridley, and Marquise Goodwin
+    - Also includes formerly good players whose age limited their roles 
+        - examples: Gronk (2018), Jimmy Graham (2017), Jeremy Maclin (2017), 
+          Jordy Nelson (2017), Michael Crabtree (2017), Victor Cruz (2016)
+    - Lastly includes great players who got injured that season and thus appear to be unproductive
+        - examples: Adam Thielen (2019), Alshon Jeffrey (2019), Doug Baldwin (2018), 
+          AJ Green (2018), Emmanuel Sanders (2017) 
+
+- Cluster 3: The best receivers in football, true Number 1's (139 players)
+    - Lead league in share of team's air yards, catches, targets, yards, and touchdowns
+    - examples: Antonio Brown (2016-18), Julio Jones (2016-19), Michael Thomas (2016-19), 
+      DeAndre Hopkins (2016-19), Travis Kelce (2016-19), Amari Cooper (2016-19), OBJ (2016, 18-19), 
+      Jarvis Landry (2016-19), Tyreek Hill (2017-19)
+
+Additional Notes:
+- The clusters can also show development from receivers over the years. For instance, Tyler Lockett 
+  was a Cluster 1 receiver in 2016 and 2017 but transitioned into a Cluster 3 receiver in 2018 and 
+  2019 as he became the Seahawks' premier target. 
+- Some of the Cluster 2 receivers are there not only because of injuries to themselves but also 
+  because of injuries to their starting quarterbacks. Jordy Nelson was hurt in 2017, but even in the 
+  games he played he didn't do much because Aaron Rodgers missed most of the season as well.
+- The style of certain offenses can be deduced from this data as well. Looking at the two 2019 Super Bowl 
+  teams: Kansas City has two Cluster 3 receivers, which correctly leads us to believe that they have an 
+  extremely high-octane passing offense. San Francisco on the other hand does not have any Cluster 3 
+  receivers, leading us to believe that they are likely a running football team that relies on scheme to 
+  move the ball through the air rather than top-tier receivers.
