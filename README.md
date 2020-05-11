@@ -2,7 +2,7 @@
 Source code and data for some of my sports analytics projects. 
 
 ### Receiver Cluster
-Unsupervised learning model that runs K-means Clustering algorithm on 2016-19 NFL receiver/tight end data to help determine the tiers of modern NFL receivers. Principal Component Analysis done on the data to reduce dimensionality of variable space before running K-Means on it. More info/results in folder.
+Unsupervised learning model that runs K-Means Clustering algorithm on 2016-19 NFL receiver/tight end data to help determine the tiers of modern NFL receivers. Principal Component Analysis done on the data to reduce dimensionality of variable space before running K-Means on it. More info/results in folder.
 
 ### DVOA
 Regression model that predicts the number of games an NFL team will win based on its DVOA. More info in folder.
