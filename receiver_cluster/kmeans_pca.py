@@ -12,9 +12,9 @@ NUM_CLUSTERS       = 3 # Elbow method on WCSS graph
 def plot_2d(data, title, xlab, ylab):
   plt.figure(figsize = (10, 8))
   plt.plot(range(1,len(data)+1), data, marker = 'o', linestyle = '--')
-  plt.title(title)
-  plt.xlabel(xlab)
-  plt.ylabel(ylab)
+  plt.title(title, fontsize=24)
+  plt.xlabel(xlab, fontsize=20)
+  plt.ylabel(ylab, fontsize=20)
   plt.show()
 
 def run_pca(df):
