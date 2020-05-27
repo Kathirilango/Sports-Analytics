@@ -1,4 +1,4 @@
-# Clustering Modern NFL Receivers
+# Clustering Modern NFL Receivers - [Read Article](https://www.bruinsportsanalytics.com/modernreceivers)
 Over the last decade the traditional concept of X, Y, and Z receivers within an offense has become very diluted as spread offenses, extremely versatile tight ends, and 'jack of all trades' receivers have become fashionable. But there are still certain discernable tiers to modern receivers.
 
 ### Project Description
